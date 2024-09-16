@@ -49,7 +49,7 @@ npm run lint # fixes any issues it can fix automatically
 3. Bootstrap your AWS environment: `cdk bootstrap`
 4. Deploy the stack: `npm run cdk:deploy`
 
-Note: Ensure you have set up the necessary environment variables (CLIENT_ID, GUILD_ID, BOT_TOKEN) in your AWS account or directly in the CDK stack.
+Note: Ensure you have set up the necessary environment variables (`CLIENT_ID`, `GUILD_ID`, and `BOT_TOKEN`) in your AWS account or directly in the CDK stack (see `cdk/discord-bot-stack.ts`).
 
 ## Inviting Your Bot to Your Server
 
