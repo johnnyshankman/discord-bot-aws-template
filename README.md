@@ -1,6 +1,6 @@
 # Discord Bot AWS Template
 
-Built to run perpetualy as a ECS container running on AWS EC2 t2.micro for very cheap/free. 
+Built to run perpetualy on AWS as an ECS container utilizing EC2 t2.micro, which is available on [AWS's Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) and therefore can be run extremely cheaply.
 
 Has a clear separation of concerns between the bot and the commands it can run. This allows for easy extensibility and maintainability. 
 
